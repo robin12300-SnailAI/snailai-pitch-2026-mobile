@@ -428,8 +428,29 @@ img{max-width:100% !important;height:auto !important;display:block}
   align-items:stretch !important;
 }
 
-/* ===== Robin 介绍页布局调整 ===== */
-.robin-photo{aspect-ratio:3/4 !important;max-width:240px !important;margin:0 auto 14px !important}
+/* ===== Robin 介绍页布局调整（图片实际 1.09:1 接近正方形） ===== */
+.robin-photo{
+  aspect-ratio:1/1 !important;
+  max-width:240px !important;
+  width:100% !important;
+  margin:0 auto 14px !important;
+  background:var(--paper-2) !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  overflow:hidden !important;
+  border-radius:var(--r-md) !important;
+  border:1px solid var(--ink-2) !important;
+  box-shadow:var(--shadow-md) !important;
+}
+.robin-photo img{
+  width:100% !important;
+  height:100% !important;
+  object-fit:cover !important;
+  display:block !important;
+  border-radius:var(--r-md) !important;
+}
+.robin-photo::after{display:none !important}
 [style*="grid-template-columns:auto 1fr"]{grid-template-columns:1fr !important;display:flex !important;flex-direction:column !important;gap:18px !important}
 [style*="padding-right:48px"]{padding-right:0 !important;justify-content:center !important}
 
