@@ -1070,37 +1070,59 @@ img[src*="poster"]{image-rendering:auto;border-radius:10px !important}
 
 <!-- ========== 24 · 课程时间与费用 ========== -->
 <section class="slide theme-light" data-n="24">
-    <div style="display:grid;grid-template-rows:auto 1fr;padding:56px 64px 80px;min-height:100vh">
-      <div style="display:flex;justify-content:flex-start;align-items:flex-start">
+    <div style="display:flex;flex-direction:column;padding:24px 20px 28px;min-height:auto;gap:12px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start">
         <span class="kicker">Course · Pricing</span>
+        <span class="t-meta">课程时间与费用</span>
       </div>
-      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%">
-        <h1 class="h-statement" style="color:var(--ink);text-align:center;letter-spacing:.02em;line-height:1.3;margin-bottom:36px">学习课程：<br><span style="color:var(--accent)">3 个月 · 18 节课</span></h1>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:36px;width:100%;max-width:960px">
-          <!-- 线上班 -->
-          <div style="background:#fff;border-radius:16px;padding:32px 28px;text-align:center;border:2px solid var(--ink-2);box-shadow:0 4px 20px rgba(0,0,0,.06)">
-            <div style="font-family:var(--mono);font-size:12px;letter-spacing:.15em;color:var(--ink-3);margin-bottom:10px;text-transform:uppercase;font-weight:600">Class A · Online</div>
-            <div style="font-size:26px;font-weight:800;color:var(--ink);letter-spacing:-.01em;line-height:1.15">AI 第一期<br><span style="color:var(--accent)">线上班</span></div>
-            <div style="font-size:14px;color:var(--ink-2);margin-top:10px;line-height:1.5">18 节线上课<br>每周 2 晚 8:30–10:30pm</div>
-            <div style="font-size:44px;font-weight:900;color:var(--accent);margin-top:18px;letter-spacing:-.03em;font-family:var(--mono)">$599</div>
-            <div style="font-size:12px;color:var(--ink-3);font-family:var(--mono);margin-top:2px">AUD</div>
-            <div style="margin-top:18px;display:flex;justify-content:center">
-              <img src="images/qr_class_a_v3.png" loading="lazy" decoding="async" alt="线上班二维码" style="width:160px;height:160px;object-fit:cover;border-radius:8px">
-            </div>
-            <div style="font-size:11px;color:var(--ink-3);margin-top:8px">扫码加入线上班群</div>
+      <div style="text-align:center">
+        <h1 style="font-family:var(--sans);font-weight:800;color:var(--ink);font-size:26px !important;line-height:1.18;margin:0 0 6px;letter-spacing:-.01em">学习课程：<br><span style="color:var(--accent)">3 个月 · 12 节课</span></h1>
+        <p style="font-size:11px !important;color:var(--ink-2);line-height:1.55;margin:0 0 12px">线上班专注本地应用，线下班专注财富管理+投资。报名线下班赠送线上课。</p>
+      </div>
+
+      <!-- CLASS A 线上班 -->
+      <div style="background:#fff;border-radius:14px;padding:18px 16px;border:1.5px solid var(--ink-2);box-shadow:0 4px 16px rgba(0,0,0,.05);position:relative">
+        <div style="position:absolute;top:10px;right:10px;background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:9px;letter-spacing:.15em;padding:3px 8px;border-radius:4px;font-weight:700">CLASS A</div>
+        <div style="font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:4px">Online</div>
+        <div style="font-size:18px;font-weight:800;color:var(--ink);letter-spacing:-.01em;line-height:1.2;margin-bottom:8px">AI 澳洲<br><span style="color:var(--accent)">本地应用课</span></div>
+        <div style="background:var(--paper-2);border-radius:8px;padding:8px 10px;margin-bottom:8px">
+          <div style="font-size:11px;color:var(--ink);line-height:1.5">
+            <div><strong>周期</strong>：3 个月 · 12 节 &nbsp; <strong>时间</strong>：周二 20:30–22:30</div>
+            <div><strong>形式</strong>：线上直播 &nbsp; <strong>核心</strong>：本地生活·工作</div>
           </div>
-          <!-- 线下班 -->
-          <div style="background:var(--accent);border-radius:16px;padding:32px 28px;text-align:center;box-shadow:0 6px 24px rgba(255,91,31,.25)">
-            <div style="font-family:var(--mono);font-size:12px;letter-spacing:.15em;color:rgba(255,255,255,.7);margin-bottom:10px;text-transform:uppercase;font-weight:600">Class B · Hybrid</div>
-            <div style="font-size:26px;font-weight:800;color:#fff;letter-spacing:-.01em;line-height:1.15">AI 第一期<br><span style="color:#fff;border:1px solid rgba(255,255,255,.5);padding:3px 12px;border-radius:4px;margin-top:4px;display:inline-block">线下+线上班</span></div>
-            <div style="font-size:14px;color:rgba(255,255,255,.85);margin-top:10px;line-height:1.5">9 节线下 + 9 节线上<br>共 18 节课 · 每周六 1–4pm</div>
-            <div style="font-size:44px;font-weight:900;color:#fff;margin-top:18px;letter-spacing:-.03em;font-family:var(--mono)">$999</div>
-            <div style="font-size:12px;color:rgba(255,255,255,.65);font-family:var(--mono);margin-top:2px">AUD</div>
-            <div style="margin-top:18px;display:flex;justify-content:center">
-              <img src="images/qr_class_b_v3.png" loading="lazy" decoding="async" alt="线下班二维码" style="width:160px;height:160px;object-fit:cover;border-radius:8px">
-            </div>
-            <div style="font-size:11px;color:rgba(255,255,255,.7);margin-top:8px">扫码加入线下班群</div>
+        </div>
+        <div style="font-size:11px;color:var(--ink-2);line-height:1.5;margin-bottom:8px">
+          <strong style="color:var(--ink)">主要内容：</strong>英文邮件 · 英文文件 · 房产基础 · 股票基础 · 孩子辅导 · 效率提升 · AI 创作 · 工具安装
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;padding-top:8px;border-top:1px solid var(--ink-2)">
+          <div>
+            <div style="font-size:28px;font-weight:900;color:var(--accent);letter-spacing:-.03em;font-family:var(--mono);line-height:1">$599</div>
+            <div style="font-size:9px;color:var(--ink-3);font-family:var(--mono);margin-top:1px">AUD</div>
           </div>
+          <div style="text-align:right;font-size:10px;color:var(--ink-3);line-height:1.4">复训 1 次<br>免费带 3 人试听</div>
+        </div>
+      </div>
+
+      <!-- CLASS B 线下班 -->
+      <div style="background:var(--ink);border-radius:14px;padding:18px 16px;box-shadow:0 6px 24px rgba(255,91,31,.22);position:relative;color:var(--paper)">
+        <div style="position:absolute;top:10px;right:10px;background:var(--accent);color:var(--ink);font-family:var(--mono);font-size:9px;letter-spacing:.15em;padding:3px 8px;border-radius:4px;font-weight:700">CLASS B</div>
+        <div style="font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:4px">Offline</div>
+        <div style="font-size:18px;font-weight:800;color:var(--paper);letter-spacing:-.01em;line-height:1.2;margin-bottom:8px">AI 财富管理<br><span style="color:var(--accent)">与投资应用 · 线下班</span></div>
+        <div style="background:rgba(250,250,247,.06);border-radius:8px;padding:8px 10px;margin-bottom:8px;border:1px solid rgba(250,250,247,.12)">
+          <div style="font-size:11px;color:var(--paper);line-height:1.5">
+            <div><strong>周期</strong>：3 个月 · 12 节 &nbsp; <strong>时间</strong>：周六 13:00–16:00</div>
+            <div><strong>地点</strong>：北悉尼办公室 &nbsp; <strong>形式</strong>：仅线下</div>
+          </div>
+        </div>
+        <div style="font-size:11px;color:rgba(250,250,247,.85);line-height:1.5;margin-bottom:8px">
+          <strong style="color:var(--accent)">主要内容：</strong>财富框架 · CFO AI · 龙虾系统 · 房产深度分析 · 合同阅读 · 投资决策表 · 股票研究 · 强度指数 · 复盘系统 · 资产配置
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;padding-top:8px;border-top:1px solid rgba(250,250,247,.15)">
+          <div>
+            <div style="font-size:28px;font-weight:900;color:var(--accent);letter-spacing:-.03em;font-family:var(--mono);line-height:1">$1,999</div>
+            <div style="font-size:9px;color:rgba(250,250,247,.55);font-family:var(--mono);margin-top:1px">AUD · 含线上课</div>
+          </div>
+          <div style="text-align:right;font-size:10px;color:rgba(250,250,247,.65);line-height:1.4">不构成投资建议<br>不代客理财</div>
         </div>
       </div>
     </div>
@@ -1515,19 +1537,19 @@ img[src*="poster"]{image-rendering:auto;border-radius:10px !important}
     </div>
   </section>
 
-  <!-- ========== 35 · 报名海报 ========== -->
+  <!-- ========== 35 · 报名海报（最终版） ========== -->
   <section class="slide theme-light" data-n="35">
     <div style="display:flex;flex-direction:column;padding:24px 16px 20px;min-height:auto;gap:14px">
       <div style="display:flex;justify-content:space-between;align-items:flex-start">
-        <span class="kicker">报名海报</span>
+        <span class="kicker">报名海报 · Final</span>
         <span class="t-meta">Enrollment</span>
       </div>
       <h1 class="h-md" style="color:var(--ink);text-align:center;font-size:18px !important;margin:0">第一期课程 <span style="color:var(--accent)">报名海报</span></h1>
 
-      <!-- 左侧支付二维码：线上班 -->
+      <!-- 4列：左QR-A + 海报A + 海报B + 右QR-B -->
       <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;align-items:start">
         <div style="display:flex;flex-direction:column;align-items:center;gap:6px;padding:8px;background:#fff;border-radius:10px;border:1.5px solid var(--ink)">
-          <img src="images/qr_pay_online.png" loading="lazy" decoding="async" alt="线上支付二维码" style="width:100%;max-width:120px;height:auto;aspect-ratio:1/1;object-fit:contain;display:block">
+          <img src="images/qr_class_a_final.png" loading="lazy" decoding="async" alt="Class A 线上班报名二维码" style="width:100%;max-width:120px;height:auto;aspect-ratio:1/1;object-fit:contain;display:block">
           <div style="text-align:center">
             <div style="font-size:11px;font-weight:700;color:var(--ink);margin-top:1px">CLASS A</div>
             <div style="font-size:9px;color:var(--ink-3);margin-top:1px;font-family:var(--mono);letter-spacing:.04em">$599</div>
@@ -1535,18 +1557,18 @@ img[src*="poster"]{image-rendering:auto;border-radius:10px !important}
         </div>
 
         <div style="background:#fff;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.1);overflow:hidden;border:1px solid var(--ink-2)">
-          <img src="images/poster_online.jpg" loading="lazy" decoding="async" alt="线上班报名海报" style="width:100%;height:auto;display:block">
+          <img src="images/poster_class_a_final.png" loading="lazy" decoding="async" alt="线上课程报名海报" style="width:100%;height:auto;display:block">
         </div>
 
         <div style="background:#fff;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.1);overflow:hidden;border:1px solid var(--ink-2)">
-          <img src="images/poster_offline.jpg" loading="lazy" decoding="async" alt="线下班报名海报" style="width:100%;height:auto;display:block">
+          <img src="images/poster_class_b_final.png" loading="lazy" decoding="async" alt="金数据线下班报名海报" style="width:100%;height:auto;display:block">
         </div>
 
         <div style="display:flex;flex-direction:column;align-items:center;gap:6px;padding:8px;background:#fff;border-radius:10px;border:1.5px solid var(--accent)">
-          <img src="images/qr_pay_offline.png" loading="lazy" decoding="async" alt="线下支付二维码" style="width:100%;max-width:120px;height:auto;aspect-ratio:1/1;object-fit:contain;display:block">
+          <img src="images/qr_class_b_final.png" loading="lazy" decoding="async" alt="Class B 线下班报名二维码" style="width:100%;max-width:120px;height:auto;aspect-ratio:1/1;object-fit:contain;display:block">
           <div style="text-align:center">
             <div style="font-size:11px;font-weight:700;color:var(--ink);margin-top:1px">CLASS B</div>
-            <div style="font-size:9px;color:var(--accent);margin-top:1px;font-family:var(--mono);letter-spacing:.04em;font-weight:700">$999</div>
+            <div style="font-size:9px;color:var(--accent);margin-top:1px;font-family:var(--mono);letter-spacing:.04em;font-weight:700">$1,999</div>
           </div>
         </div>
       </div>
